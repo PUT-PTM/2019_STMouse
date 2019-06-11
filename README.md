@@ -31,8 +31,8 @@ STMouse 1.0.2 Anakonda, an application on STM32.
 ### Connections to STM32F407G
 Two USB cables, one for power supply and the other for the HID communication.
 ## How to compile 💻
-Import project to System Workbench and click on 'RUN' button. Everything should be upload to STM32. Microcontroller should be connected to the computer. 
-## Bugs 
+Import project to System Workbench and click on 'RUN' button. Everything should be upload to STM32. Microcontroller should be connected to the computer.
+## Bugs 🐞
 The BNO055 system occasionally makes erroneous measurements of overloads, recording the maximum values of these parameters.
 ## Future improvements ✏️
 There are many potentil project development opportunities, among others: 
@@ -40,6 +40,10 @@ There are many potentil project development opportunities, among others:
 - Improving the resposiveness of the device.
 - More buttons and gestures ensuring additional functionalities such as opening     selected programs, sound control. 
 - An interesting prospect of development could be adding a second glove that adds   additional functions depending on the distance and movements of both hands, for   example, moving away from each other it could dismiss the view and bringing them   closer - zooming the view.
+## Authors
+* **Maciej Dembiński** - [Awnar](https://github.com/Awnar)
+* **Piotr Kopycki** - [Aoxter](https://github.com/Aoxter)
+
 ## Addition 💡
   The project used a library for the module BNo055 created by the github user bugratufan and published here: https://github.com/bugratufan/STM32_BNO055/?fbclid=IwAR2R_Ds-xPxk-i865TxB8s8_3m9aMgMNJ85il7Vmm2JdS2bNgLOdiO4vQnI.
   The project was conducted during the Microprocessor Lab course held by the Institute of Control and Information Engineering, Poznan University of Technology. Supervisor: Adam Bondyra.
